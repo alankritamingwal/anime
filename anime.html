@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="indexx.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <style>
+		* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	.carousel {
+		height: 100vh;
+		padding-bottom: 100px;
+		background-image:url("https://wallpaperaccess.com/full/325495.png");
+		background-repeat:repeat;
+		background-position: center;
+		overflow: hidden;
+	}
+
+	.post-card {
+		position: absolute;
+		height: 500px;
+		width: 700px;
+		background: black;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border-radius: 5px;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1) inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+		overflow: hidden;
+		box-shadow: 0 0 4px rgb(0, 0, 0, .3);
+	}
+
+	.image {
+		height: 100%;
+		width: 100%;
+	}
+
+	.profile {
+		height: 100px;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		background-color:black;
+		overflow: hidden;
+		box-shadow: 0 5px 4px rgb(0, 0, 0, .3);
+		position: relative;
+	}
+
+	.pic {
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
+		background: green;
+		border: 3px solid #fff;
+		box-shadow: 0 0 0.5px rgb(0, 0, 0, .5);
+		margin-top: 5px;
+		margin-left: 5px;
+		position: relative;
+	}
+
+	.small {
+		position: absolute;
+		bottom: 0px;
+		right: -2px;
+		height: 15px;
+		width: 15px;
+		border-radius: 50%;
+		background: black;
+		box-shadow: 0 0 2px rgb(0, 0, 0, .4);
+		border: 2px solid #fff;
+	}
+
+	.main {
+		height: 25px;
+		width: 69%;
+		background: transparent;
+		color: white;
+		position: absolute;
+		top: 8px;
+		left: 75px;
+		margin: 0;
+		font-size: 1.1em;
+		font-weight: 400;
+		letter-spacing: 0.8px;
+	}
+
+	.foot {
+		display: block;
+		position: absolute;
+		bottom: 5px;
+		height: 15px;
+		width: 75%;
+		background: transparent;
+		color: white;
+		left: 65px;
+		margin: 0;
+		font-size: 12px;
+		font-weight: 400;
+		letter-spacing: 0.8px;
+		padding: 2px;
+		box-sizing: border-box;
+	}
+
+	.simple {
+		display: inline-block;
+		background: transparent;
+		width: 12%;
+		color: red;
+		text-align: center;
+	}
+
+	.simple:hover {
+		color: #000;
+	}
+
+	.far,
+	.fas {
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+
+	.right {
+		float: right;
+		height: 17px;
+		width: 40px;
+		background: orange;
+		margin: 5px;
+		color: #fff;
+		font-size: 10px;
+		font-weight: 500;
+		text-align: center;
+		line-height: 1.7em;
+	}
+
+	.img {
+		height: 100%;
+		width: 100%;
+		border-radius: 50%;
+	}
+	</style>
+	
+	
+</head>
+
+<body>
+    <div class="carousel">
+
+        <div class="profile">
+            <div class="right">WEB</div>
+            <div class="pic">
+                <img class="img" src="https://www.pngitem.com/pimgs/m/273-2730480_ldshadowlady-images-ldshadowlady-hd-wallpaper-and-background-pink.png" alt="loading...">
+                <div class="small"></div>
+            </div>
+            <div class="main">
+                <p>アニメ壁紙</p>
+				<p>私のアニメ壁紙コレクションを気に入ってください</p>
+            </div>
+            <div class="foot">
+                <div class="simple">
+                    <i class="fas fa-arrow-up"></i> 25
+                    <i class="fas fa-arrow-down"></i>
+                </div>
+                <div class="simple">
+                    <i class="far fa-comment-alt"></i> 25
+                </div>
+                <div class="simple">
+                    <i class="fas fa-eye"></i> 80
+                </div>
+                <div class="simple">
+                    <i class="fas fa-clock"></i> 1 hr
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="post-card">
+                <img src="https://www.wallpaperup.com/uploads/wallpapers/2014/03/02/284069/bf6e6218faa7039ab35096e0c072ad95.jpg" class="image">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="post-card">
+                <img src="https://static.zerochan.net/Remilia.Scarlet.full.1748946.jpg" class="image">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="post-card">
+                <img src="https://img.chuing.net/i/JNpNyp/Preview.x.jpg" class="image">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="post-card">
+                <img src="https://i1.wp.com/windowscustomization.com/wp-content/uploads/2018/12/girl-stars.gif?fit=750%2C366&quality=80&strip=all&ssl=1&w=640" class="image">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="post-card">
+                <img src="https://lh3.googleusercontent.com/proxy/Uun8udxyNLE_ZWUizLbPZToJHkAQ89_nmeXvw9gBkjaeNqJN-ZTxgUAYo9Zf4-o2tqk2r0woCElyhFh-P84XstQbaF8qYv2pzn4uh9IrjoNlc7lQuz1PGqqdkcCFgWSH9DEH7Q" class="image">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="post-card">
+                <img src="https://cutewallpaper.org/21/fancy-desktop-wallpaper/HD-Fancy-Backgrounds-Free-PixelsTalk.Net.jpg" class="image">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="post-card">
+                <img src="https://i.pinimg.com/originals/4f/2d/0d/4f2d0d7730cf01a5f2d81c7914b1e5fa.jpg" class="image">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="post-card">
+                <img src="https://c4.wallpaperflare.com/wallpaper/508/596/918/anime-demon-slayer-kimetsu-no-yaiba-shinobu-kochou-hd-wallpaper-preview.jpg" class="image">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="post-card">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/81mQ3EM3fzL._SL1500_.jpg" class="image">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="post-card">
+                <img src="https://wallpaperboat.com/wp-content/uploads/2020/04/anime-forest-01.jpg" class="image">
+            </div>
+        </div>
+		<div class="carousel-item">
+            <div class="post-card">
+                <img src="https://cdn.hipwallpaper.com/i/30/43/TbPcrV.jpg" class="image">
+            </div>
+        </div>
+		<div class="carousel-item">
+            <div class="post-card">
+                <img src="https://wallpaperaccess.com/full/759699.jpg" class="image">
+            </div>
+        </div>
+		<div class="carousel-item">
+            <div class="post-card">
+                <img src="https://i.pinimg.com/originals/c5/cb/7f/c5cb7f29fd4ae038d7789f902efcb770.jpg" class="image">
+            </div>
+        </div>
+		<div class="carousel-item">
+            <div class="post-card">
+                <img src="https://wallpaperscave.com/images/thumbs/wp-preview/800x500/18/10-05/anime-tokyo-ghoul-89646.jpg" class="image">
+            </div>
+        </div>
+		<div class="carousel-item">
+            <div class="post-card">
+                <img src="https://a-static.besthdwallpaper.com/kimetsu-no-yaiba-hinokami-kagura-tanjiro-wallpaper-1920x540-42606_70.jpg" class="image">
+            </div>
+        </div>
+		<div class="carousel-item">
+            <div class="post-card">
+                <img src="https://external-preview.redd.it/ESS-47NMuho5PpQJQD_ILMXozZ-altzFfGZdYDv62B8.jpg?auto=webp&s=f1edd91a00e60438783240b850de8b3bb4410d86" class="image">
+            </div>
+        </div>
+		<div class="carousel-item">
+            <div class="post-card">
+                <img src="https://i.pinimg.com/originals/3b/24/c8/3b24c8e27448b1d1577515fb3c6e9fcd.jpg" class="image">
+            </div>
+        </div>
+		<div class="carousel-item">
+            <div class="post-card">
+                <img src="https://c4.wallpaperflare.com/wallpaper/134/429/125/anime-girls-swing-friends-stars-wallpaper-preview.jpg" class="image">
+            </div>
+        </div>
+		<div class="carousel-item">
+            <div class="post-card">
+                <img src="https://4.bp.blogspot.com/-vOyba9N0ITs/XExwuyL1fCI/AAAAAAAABas/Cb2QocO3j0s4DyJIT5paL_cM_aeDrwLwACKgBGAs/w1920-h1080-c/anime-anime-girl-fantasy-48-4K.jpg" class="image">
+            </div>
+        </div>
+		<div class="carousel-item">
+            <div class="post-card">
+                <img src="https://vignette.wikia.nocookie.net/webcomics/images/8/87/Fisheye_Placebo.jpg/revision/latest?cb=20170115050736" class="image">
+            </div>
+        </div>
+		<div class="carousel-item">
+            <div class="post-card">
+                <img src="https://wallpapercave.com/wp/wp2301563.jpg" class="image">
+            </div>
+        </div>
+		<div class="carousel-item">
+            <div class="post-card">
+                <img src="https://i.pinimg.com/originals/9c/b8/df/9cb8dfbe88e2c2b7b496b27681f3439d.jpg" class="image">
+            </div>
+        </div>
+		<div class="carousel-item">
+            <div class="post-card">
+                <img src="https://4kwallpaper.wiki/wp-content/uploads/2019/07/57063.jpg" class="image">
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.carousel');
+            var options = {
+                duration: 450,
+                indicators: true
+            }
+            var instances = M.Carousel.init(elems, options);
+        });
+    </script>
+</body>
+</html>
